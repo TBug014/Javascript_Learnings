@@ -1,6 +1,5 @@
 
 "use strict";
-/*
 
 //Functions
 
@@ -30,11 +29,11 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
-*/
+
 
 // Function declaration 
 
-/*
+
 function calcAge1(birthYear) {
     return 2030 - birthYear;
 }
@@ -50,12 +49,12 @@ const calcAge2 = function (birthYear) {
 }
 const age2 = calcAge2(1998);
 console.log(age1, age2);
-*/
+
 
 
 // Arrow Functions
 
-/*
+
 const calcAge3 = birthYear => 2040 - birthYear;
 const age3 = calcAge3(1998);
 console.log(age3);
@@ -73,11 +72,11 @@ console.log(yearsUntilRetirement(1992, 'Joon'));
 console.log(yearsUntilRetirement(1998, 'Partha'));
 console.log(yearsUntilRetirement(1999, 'Uddhab'));
 
-*/
+
 
 // Function Calling other Functions 
 
-/*
+
 function cutFruitPieces(fruit) {
     return fruit * 4;
 }
@@ -92,11 +91,11 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(2, 3));
 console.log(fruitProcessor(4, 6));
 
-*/
+
 
 // Coding Challenge 
 
-/*
+
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
@@ -124,12 +123,12 @@ scoreKoalas = calcAverage(23, 34, 27);
 console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
 
-*/
+
 
 // Introduction to Arrays
 
 
-/*
+
 const brothers = ['Moon', 'Joon', 'Partha', 'Uddhab'];
 console.log(brothers);
 
@@ -174,11 +173,10 @@ const ages = [calcAge(years[0]), calcAge(years[1])];
 calcAge(years[years.length - 1]);
 console.log(ages);
 
-*/
+
 
 // Basic array Operations(Methods)
 
-/*
 const brothers = ['Moon', 'Joon', 'Partha'];
 
 //Add elements
@@ -210,11 +208,10 @@ if (brothers.includes('Partha')) {
     console.log('You have a brother named Partha');
 }
 
-*/
+
 
 // Coding Challenge 
 
-/*
 const calcTip = function (bill) {
     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
@@ -229,10 +226,10 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips);
 console.log(totals);
 
-*/
+
 
 // Intro to Objects
-/*
+
 const parthaArray = [
     'Partha',
     'Protim Sarmah',
@@ -250,10 +247,10 @@ const partha = {
     brothers: ['Moon', 'Joon', 'Uddhab']
 };
 console.log(partha);
-*/
+
 
 // Dot vs. Bracket notation
-/*
+
 const partha = {
     firstName: 'Partha',
     lastName: 'Protim Sarmah',
@@ -284,13 +281,13 @@ partha['Twitter'] = '@parthapSarmah1';
 console.log(partha);
 
 //Challenge
-/*
+
 console.log(`${partha.firstName} has ${partha.brothers.length} brothers, and his big brother name is ${partha.brothers[0]} and his younger brother name is ${partha.brothers[2]}`);
-*/
+
 
 // Object Methods
 
-/*
+
 const partha = {
     firstName: 'Partha',
     lastName: 'Protim Sarmah',
@@ -323,11 +320,11 @@ console.log(partha.calcAge());
 // Challenge
 
 console.log(partha.getSummary());
-*/
+
 
 // Coding Challenge 
 
-/*
+
 const partha = {
     fullName: 'Partha Protim',
     mass: 58,
@@ -361,23 +358,23 @@ if (Moon.bmi > partha.bmi) {
     console.log(`${partha.fullName}'s BMI (${partha.bmi}) is higher than ${Moon.fullName}'s BMI(${Moon.bmi})`)
 }
 
-*/
+
 
 
 // For Loop
 
-/*
+
 //for loop keeps running while condition is true
 
 for (let rep = 1; rep <= 15; rep++) {
     console.log(`Lifting Wights repetition ${rep}`);
 }
-*/
+
 
 
 // Looping Arrays, breaking and continuing 
 
-/*
+
 const partha = [
     'Partha',
     'Protim Sarmah',
@@ -427,11 +424,11 @@ for (let i = 0; i <= partha.length; i++) {
     console.log(partha[i], typeof partha[i]);
 }
 
-*/
+
 
 // Looping Backwards and Loops in Loops 
 
-/*
+
 //Backwards
 
 const partha = [
@@ -455,11 +452,11 @@ for (let exercise = 1; exercise < 4; exercise++) {
     for (let rep = 1; rep < 7; rep++)
         console.log(`Lifting Weight repetition ${rep}`);
 }
-*/
+
 
 // The While Loop
 
-/*
+
 // for (let rep = 1; rep <= 15; rep++) {
 //     console.log(`Lifting Wights repetition ${rep}`);
 // }
@@ -481,11 +478,11 @@ while (dice !== 6) {
     }
 }
 
-*/
+
 
 // Coding Challenge 
 
-/*
+
 const calcTip = function (bill) {
     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
@@ -512,4 +509,4 @@ const calcAverage = function (arr) {
 console.log(calcAverage([2, 3, 7]));
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
-*/
+
